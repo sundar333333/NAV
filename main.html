@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavGarments.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuerry.css">
+</head>
+<body>
+    <div class="mainsite">
+        <!-- HEADER -->
+         <div class="OfferBar">Special Discounts on your first online order</div>
+        <header>
+            <div class="hamburger-menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <img  class="mainlogo" src="./asstes/logo.png">
+            <div class="headerNavArea">
+                <a href="https://g.co/kgs/vm2XBAZ">Store</a>
+                <a href="">About Us</a>
+                <a href=""><span style="color: red;">Shop Now </span>and Get <span style="color: red;">15%  OFF*</span></a> 
+            </div>
+            <div class="headerinfobar">
+                <div class="headerinfobar1">
+                    <a href="https://wa.me/9600732925?text=Hello%20I%20am%20interested%20in%20your%20business" target="_blank"><img class="headericons" src="./asstes/5.png"></img></a>
+                    <img class="headericons" src="./asstes/6.png"></img>
+                </div>
+                <button class="headerContactBtn">Contact us</button>
+            </div>
+
+
+        </header>
+        <!-- SECTION1 -->
+        <div class="section1"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Wait for page to load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get hamburger and nav elements
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.headerNavArea');
+            
+            // Toggle menu on click
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
+

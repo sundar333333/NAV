@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:poppins,sans-serif;
+  }
+
+  a{all:unset;}
+  button{border: none;border-radius:5px;}
+.mainsite{height: 1000px;}
+.OfferBar{height: 25px;background-color: rgb(0, 0, 0);color: white;font-size: small;}
+
+/* HEADER */
+
+header{
+    height:120px;border-bottom: 1px solid rgb(171, 171, 171);background-color: antiquewhite;
+    display: flex;align-items: center;justify-content: space-around;
+  }
+
+.mainlogo{height: 60%;width: auto;}
+.headerNavArea{
+  width: 35%;display: flex;justify-content: space-between;border: 1px solid black;
+}
+.headerContactBtn{
+  height:90%;width:60%;font-size:medium;
+  background-color: #01aaad;color: white;font-weight: 600;box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.17);
+}
+
+.headerinfobar{width:20%;height:35%;display: flex;justify-content: space-around;align-items: center;border: 1px solid black;}
+.headerinfobar1{height:100%;width:30%;background-color: black;display: flex;justify-content: space-around;}
+.headericons{height: 100%;}
+.headerContactBtn:hover{cursor: pointer;color: rgb(255, 234, 0);} 
+.headerinfobar1 img:hover{cursor: pointer} 
+.headerNavArea a:hover{cursor: pointer}
+
+
+
+
+
+/* SECTION1 */
+.section1{
+  height:650px;background-color: aliceblue;
+  background-image:url('./asstes/NAV-WebsiteDesign.svg');
+  background-size: cover;image-rendering: auto;
+}
